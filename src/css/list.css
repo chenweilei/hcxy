@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.list-cont {
+  margin-bottom: 50px; }
+
+.list-news-list {
+  margin-bottom: 50px; }
+  .list-news-list > li {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 18px;
+    padding-bottom: 20px; }
+    .list-news-list > li:last-child {
+      border: none; }
+  .list-news-list .news-left {
+    width: 260px; }
+  .list-news-list .news-right {
+    width: 561px; }
+  .list-news-list .news-title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    line-height: 37px; }
+  .list-news-list .news-desc {
+    height: 91px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    overflow: hidden; }
+  .list-news-list .news-info {
+    font-size: 12px;
+    line-height: 24px;
+    color: #9c9c9c; }
+    .list-news-list .news-info p {
+      margin-right: 26px;
+      padding-left: 22px; }
+  .list-news-list .news-info-time {
+    background-image: url(../images/ico-time.png);
+    background-repeat: no-repeat;
+    background-position: left; }
+  .list-news-list .news-info-keyword {
+    background-image: url(../images/ico-label.png);
+    background-repeat: no-repeat;
+    background-position: left; }
+
+/* 分页器 */
+.list-pagination {
+  text-align: center; }
+  .list-pagination #splitpage {
+    display: inline-block; }
+    .list-pagination #splitpage > ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    .list-pagination #splitpage > ul li {
+      min-width: 46px;
+      height: 46px;
+      border: 1px solid #e5e5e5;
+      background-color: #f4f4f4;
+      float: left;
+      margin-right: 9px;
+      text-align: center;
+      line-height: 46px;
+      box-sizing: border-box;
+      padding: 0 10px; }
+      .list-pagination #splitpage > ul li:hover {
+        background-color: #cc141e;
+        border-color: #cc141e; }
+        .list-pagination #splitpage > ul li:hover a {
+          color: #fff; }
+      .list-pagination #splitpage > ul li a {
+        display: inline-block;
+        height: 100%;
+        color: #333;
+        font-size: 15px; }
+      .list-pagination #splitpage > ul li.active {
+        color: #fff;
+        background-color: #cc141e;
+        border-color: #cc141e; }
+      .list-pagination #splitpage > ul li:last-child {
+        margin-right: 0; }
+      .list-pagination #splitpage > ul li.lastly {
+        border: none;
+        background-color: transparent;
+        padding: 0; }
+        .list-pagination #splitpage > ul li.lastly:hover a {
+          color: #333; }
+        .list-pagination #splitpage > ul li.lastly a {
+          border: 1px solid #e5e5e5;
+          background-color: #f4f4f4;
+          padding: 0 10px;
+          margin-left: 10px; }
+          .list-pagination #splitpage > ul li.lastly a:hover {
+            color: #fff;
+            background-color: #cc141e;
+            border-color: #cc141e; }
+
+/*# sourceMappingURL=list.css.map */

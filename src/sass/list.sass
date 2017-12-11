@@ -1,0 +1,109 @@
+@charset "utf-8"
+
+.list-cont
+	margin-bottom: 50px
+
+.list-news-list
+	margin-bottom: 50px
+	>li
+		border-bottom: 1px solid #e5e5e5
+		margin-bottom: 18px
+		padding-bottom: 20px
+		&:last-child
+			border: none
+	.news-left
+		width: 260px
+	.news-right
+		width: 561px
+	.news-title
+		width: 100%
+		white-space: nowrap
+		overflow: hidden
+		text-overflow: ellipsis
+		font-size: 20px
+		line-height: 37px
+	.news-desc
+		height: 91px
+		font-size: 14px
+		line-height: 24px
+		color: #666
+		overflow: hidden
+	.news-info
+		font-size: 12px
+		line-height: 24px
+		color: #9c9c9c
+		p
+			margin-right: 26px
+			padding-left: 22px
+	.news-info-time
+		background:
+			image: url(../images/ico-time.png)
+			repeat: no-repeat
+			position: left
+	.news-info-keyword
+		background:
+			image: url(../images/ico-label.png)
+			repeat: no-repeat
+			position: left
+		
+/* 分页器 */
+.list-pagination
+	text-align: center
+	#splitpage
+		display: inline-block
+		>ul
+			&:after
+				content: ""
+				display: block
+				clear: both
+			li
+				min-width: 46px
+				height: 46px
+				border: 1px solid #e5e5e5
+				background-color: #f4f4f4
+				float: left
+				margin-right: 9px
+				text-align: center
+				line-height: 46px
+				box-sizing: border-box
+				padding: 0 10px
+				&:hover
+					background-color: #cc141e
+					border-color: #cc141e
+					a
+						color: #fff
+				a
+					display: inline-block
+					height: 100%
+					color: #333
+					font-size: 15px
+				&.active
+					color: #fff
+					background-color: #cc141e
+					border-color: #cc141e
+				&:last-child
+					margin-right: 0
+				&.lastly
+					border: none
+					background-color: rgba(0,0,0,0)
+					padding: 0
+					&:hover a
+						color: #333
+					a
+						border: 1px solid #e5e5e5
+						background-color: #f4f4f4
+						padding: 0 10px
+						margin-left: 10px
+						&:hover
+							color: #fff
+							background-color: #cc141e
+							border-color: #cc141e
+
+
+
+
+
+
+
+
+

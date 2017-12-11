@@ -1,0 +1,229 @@
+@charset "UTF-8";
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+body {
+  min-width: 1200px; }
+
+.warp {
+  width: 1200px;
+  margin: 0 auto; }
+
+/* 内容页 列表页 共用 */
+.cont-left {
+  width: 840px; }
+
+/* 内容- 右 */
+.cont-right {
+  width: 332px; }
+
+/* 面包屑导航 */
+.breadcrumbs {
+  margin-top: 40px;
+  margin-bottom: 18px; }
+  .breadcrumbs a {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #666; }
+
+/*右侧 */
+/* 右侧开班 */
+.right-openclasses {
+  margin-bottom: 15px; }
+  .right-openclasses li {
+    width: 332px;
+    height: 144px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 40px;
+    background-image: url(../images/cont-right-kbbg1.png);
+    background-repeat: no-repeat; }
+    .right-openclasses li > h3 {
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .right-openclasses li > p {
+      font-size: 12px;
+      line-height: 22px;
+      color: #929292;
+      margin-bottom: 8px; }
+    .right-openclasses li > div {
+      width: 157px;
+      height: 4px;
+      background: #c3c3c3; }
+      .right-openclasses li > div span {
+        display: block;
+        height: 100%;
+        background-color: #dc0612; }
+    .right-openclasses li > a {
+      position: absolute;
+      width: 88px;
+      height: 30px;
+      border: 1px solid #fff;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      right: 23px;
+      top: 50%;
+      margin-top: -15px;
+      color: #fff; }
+
+/* 右侧推荐阅读 */
+.right-recommend {
+  background-color: #f5f5f5;
+  padding: 26px 18px 18px;
+  margin-bottom: 15px; }
+  .right-recommend > h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 18px;
+    font-weight: bold; }
+  .right-recommend > div {
+    height: 108px;
+    margin-bottom: 11px;
+    background-image: url(../images/cont-right-pic1.png);
+    background-repeat: no-repeat; }
+    .right-recommend > div p {
+      font-size: 14px;
+      color: #fff;
+      padding-left: 16px;
+      padding-top: 77px; }
+  .right-recommend > ul li {
+    width: 100%; }
+    .right-recommend > ul li a {
+      width: 100%;
+      font-size: 14px;
+      line-height: 38px;
+      color: #666;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-left: 16px;
+      background-image: url(../images/ico-list-point.png);
+      background-repeat: no-repeat;
+      background-position: left; }
+      .right-recommend > ul li a:hover {
+        color: #f00; }
+
+/* 右侧免费视频 */
+.right-freetutorial {
+  background-color: #f5f5f5;
+  padding: 26px 18px 18px;
+  margin-bottom: 15px; }
+  .right-freetutorial > h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 18px;
+    font-weight: bold; }
+  .right-freetutorial > div {
+    height: 108px;
+    margin-bottom: 17px;
+    background-image: url(../images/cont-right-pic2.png);
+    background-repeat: no-repeat; }
+    .right-freetutorial > div p {
+      font-size: 14px;
+      color: #fff;
+      padding-left: 16px;
+      padding-top: 77px; }
+  .right-freetutorial > ul li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d4d4d4; }
+    .right-freetutorial > ul li a {
+      font-size: 14px;
+      line-height: 24px;
+      padding: 0 10px;
+      color: #737373; }
+    .right-freetutorial > ul li:hover {
+      border-color: #c80f19;
+      background-color: #c80f19; }
+      .right-freetutorial > ul li:hover a {
+        color: #fff; }
+
+/* 右侧 下一篇文章 */
+.right-nextarticle {
+  background-color: #f5f5f5;
+  padding: 26px 18px 18px;
+  margin-bottom: 15px; }
+  .right-nextarticle h4 {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 14px; }
+  .right-nextarticle p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px; }
+    .right-nextarticle p a {
+      width: 100%;
+      color: #000;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+/* 底部在线申请 */
+.online-apply {
+  height: 339px;
+  background-image: url(../images/online-apply-bg.png);
+  background-size: cover;
+  background-position: center; }
+  .online-apply .warp {
+    padding-top: 40px; }
+
+.online-apply-title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 45px; }
+  .online-apply-title span {
+    font-weight: normal;
+    color: #999999; }
+
+.online-apply-list li {
+  width: 381px;
+  height: 160px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding-top: 40px;
+  margin-right: 27px; }
+  .online-apply-list li:last-child {
+    margin-right: 0; }
+  .online-apply-list li h4 {
+    font-size: 18px;
+    line-height: 60px;
+    color: #000;
+    margin-left: 42px;
+    padding-left: 60px;
+    background-background-image: url(../images/ico-cont-xueke1.png);
+    background-repeat: no-repeat;
+    background-position: left; }
+  .online-apply-list li a {
+    margin-left: 288px;
+    color: #f00; }
+.online-apply-list .online-appl-ai h4 {
+  background-image: url(../images/ico-cont-xueke1.png); }
+.online-apply-list .online-appl-bd h4 {
+  background-image: url(../images/ico-cont-xueke2.png); }
+.online-apply-list .online-appl-h5 h4 {
+  background-image: url(../images/ico-cont-xueke3.png); }
+
+/*# sourceMappingURL=common.css.map */
