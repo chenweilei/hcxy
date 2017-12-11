@@ -226,4 +226,54 @@ body {
 .online-apply-list .online-appl-h5 h4 {
   background-image: url(../images/ico-cont-xueke3.png); }
 
+/*共用底部 */
+/*友链 */
+.com-bot-friendlink, .com-bot-address {
+  background-color: #252525; }
+
+.com-bot-friendlink .warp {
+  padding-top: 48px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #292929; }
+
+.com-bot-friendlink-title {
+  margin-bottom: 13px; }
+  .com-bot-friendlink-title h3 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: bold; }
+  .com-bot-friendlink-title a {
+    font-size: 18px;
+    color: #cc141e; }
+
+.com-bot-friendlink-link a {
+  font-size: 14px;
+  line-height: 32px;
+  color: #757575;
+  margin-right: 20px; }
+
+/*公司地址 */
+.com-bot-address .warp {
+  padding-top: 30px;
+  padding-bottom: 37px;
+  position: relative; }
+  .com-bot-address .warp > h3 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .com-bot-address .warp > p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #757575; }
+
+.com-bot-address-qrcode {
+  position: absolute;
+  right: 12px;
+  top: 86px; }
+  .com-bot-address-qrcode a {
+    margin-left: 20px; }
+
 /*# sourceMappingURL=common.css.map */
