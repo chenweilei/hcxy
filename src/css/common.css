@@ -18,6 +18,7 @@ body {
 
 .warp {
   width: 1200px;
+  min-width: 1200px;
   margin: 0 auto; }
 
 /* 内容页 列表页 共用 */

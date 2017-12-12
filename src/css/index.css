@@ -1,0 +1,169 @@
+.index-banner {
+  height: 545px;
+  overflow: hidden; }
+  .index-banner .warp {
+    height: 100%;
+    position: relative; }
+  .index-banner .index-banner-img {
+    width: 100%;
+    min-width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px; }
+    .index-banner .index-banner-img li {
+      display: none; }
+      .index-banner .index-banner-img li.active {
+        display: block; }
+  .index-banner .index-banner-left,
+  .index-banner .index-banner-right {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .index-banner .index-banner-left {
+    left: -72px;
+    background-image: url("../images/index/index-banner-btnL.png"); }
+  .index-banner .index-banner-right {
+    right: -72px;
+    background-image: url("../images/index/index-banner-btnR.png"); }
+  .index-banner .index-banner-btns {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    text-align: center;
+    width: 100%; }
+    .index-banner .index-banner-btns li {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      box-sizing: border-box;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-left: 8px;
+      margin-right: 3px;
+      cursor: pointer; }
+      .index-banner .index-banner-btns li.active {
+        background-color: #FFF; }
+
+.cloumn-tit h2 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #000;
+  font-weight: bold; }
+  .cloumn-tit h2 span {
+    font-size: 26px;
+    color: #bfbfbf;
+    font-weight: normal; }
+.cloumn-tit a {
+  width: 90px;
+  height: 40px;
+  border: 1px solid #cb141e;
+  text-align: centerlh;
+  line-height: 40px;
+  font-size: 16px;
+  color: #cb141e;
+  text-align: center; }
+
+.focus-headline .warp {
+  padding-top: 46px;
+  padding-bottom: 66px; }
+.focus-headline .cloumn-tit {
+  margin-bottom: 40px; }
+
+.focusheadline-l {
+  width: 850px; }
+
+.focusheadline-l-img {
+  width: 412px;
+  height: 279px;
+  overflow: hidden; }
+  .focusheadline-l-img img {
+    width: 100%;
+    height: auto; }
+
+.focusheadline-l-desc {
+  width: 409px; }
+  .focusheadline-l-desc > h3 {
+    font-size: 22px;
+    line-height: 46px;
+    color: #000;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 6px; }
+  .focusheadline-l-desc > div {
+    margin-bottom: 20px; }
+    .focusheadline-l-desc > div span {
+      display: inline-block;
+      width: 66px;
+      height: 30px;
+      background-color: #eeeeee;
+      color: #333;
+      text-align: center;
+      line-height: 30px;
+      margin-right: 30px;
+      vertical-align: top; }
+    .focusheadline-l-desc > div strong {
+      font-size: 24px;
+      line-height: 30px;
+      color: #e5101c; }
+  .focusheadline-l-desc > p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    max-height: 126px;
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .focusheadline-l-desc > span {
+    font-size: 14px;
+    line-height: 22px;
+    color: #666; }
+
+.focusheadline-r {
+  width: 300px; }
+  .focusheadline-r li {
+    border-bottom: 1px solid #e9e9e9;
+    height: 69px; }
+    .focusheadline-r li:last-child {
+      border: none; }
+    .focusheadline-r li > div:nth-child(1) {
+      width: 66px;
+      height: 100%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+      color: #fff;
+      background-color: #919191;
+      box-sizing: border-box;
+      padding-top: 12px; }
+    .focusheadline-r li > div:nth-child(2) {
+      width: 234px;
+      height: 100%;
+      background-color: #ffffff;
+      box-sizing: border-box;
+      padding-left: 18px;
+      padding-right: 13px;
+      padding-top: 10px; }
+      .focusheadline-r li > div:nth-child(2) a {
+        font-size: 14px;
+        line-height: 24px;
+        color: #666; }
+    .focusheadline-r li:hover > div:nth-child(1) {
+      background-color: #cc141e; }
+    .focusheadline-r li:hover > div:nth-child(2) {
+      background-color: #e9e9e9; }
+      .focusheadline-r li:hover > div:nth-child(2) a {
+        color: #333; }
+
+/*# sourceMappingURL=index.css.map */
