@@ -68,7 +68,7 @@
   width: 90px;
   height: 40px;
   border: 1px solid #cb141e;
-  text-align: centerlh;
+  text-align: center;
   line-height: 40px;
   font-size: 16px;
   color: #cb141e;
@@ -165,5 +165,335 @@
       background-color: #e9e9e9; }
       .focusheadline-r li:hover > div:nth-child(2) a {
         color: #333; }
+
+.index-classes {
+  height: 483px;
+  background-image: url("../images/index/index-classes-bg.jpg");
+  background-repeat: repeat-x;
+  background-position: center; }
+  .index-classes .warp {
+    padding-top: 65px; }
+
+.index-classes-list li {
+  width: 380px;
+  height: 352px;
+  position: relative;
+  margin-right: 29px; }
+  .index-classes-list li:hover > a {
+    display: block; }
+  .index-classes-list li:last-child {
+    margin-right: 0; }
+  .index-classes-list li > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding-left: 28px;
+    padding-top: 236px; }
+    .index-classes-list li > div h3 {
+      font-size: 22px;
+      line-height: 34px;
+      margin-bottom: 9px;
+      color: #FFFFFF; }
+    .index-classes-list li > div p {
+      color: #949494; }
+  .index-classes-list li > span {
+    position: absolute;
+    width: 167px;
+    height: 37px;
+    top: 11px;
+    right: -2px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 38px;
+    background-image: url(../images/index/ioc-topright.png);
+    background-repeat: no-repeat; }
+  .index-classes-list li > a {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 72px;
+    color: #fff;
+    background-color: #cc141e;
+    left: 0;
+    bottom: 0;
+    display: none; }
+
+.index-teacher {
+  height: 762px;
+  background-image: url(../images/index/index-teacher-bg1.jpg);
+  background-repeat: repeat-x;
+  background-position: center; }
+  .index-teacher .warp {
+    padding-top: 55px; }
+
+.index-teacher-cont {
+  width: 913px;
+  height: 434px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  position: relative;
+  margin-top: 32px;
+  background-image: url(../images/index/index-teacher-bg2.jpg);
+  background-repeat: no-repeat; }
+  .index-teacher-cont li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+    .index-teacher-cont li > div {
+      width: 412px;
+      margin-left: 63px;
+      color: #fff;
+      padding-top: 44px; }
+      .index-teacher-cont li > div > h3 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-bottom: 12px; }
+        .index-teacher-cont li > div > h3 span {
+          font-size: 16px;
+          font-weight: normal; }
+      .index-teacher-cont li > div > p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 24px; }
+      .index-teacher-cont li > div > div {
+        width: 223px;
+        height: 167px;
+        position: relative; }
+        .index-teacher-cont li > div > div a {
+          position: absolute;
+          width: 65px;
+          height: 65px;
+          top: 50%;
+          left: 50%;
+          margin-top: -32px;
+          margin-left: -32px;
+          background-image: url(../images/index/ico-play-btn.png);
+          background-repeat: no-repeat; }
+
+.index-teacher-btnbox {
+  position: relative; }
+  .index-teacher-btnbox > div {
+    width: 1033px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 6px; }
+
+.index-teacher-btns li {
+  width: 127px;
+  height: 95px;
+  background-color: #cc141e;
+  position: relative;
+  margin-right: 24px; }
+  .index-teacher-btns li:last-child {
+    margin-right: 0; }
+  .index-teacher-btns li.active img {
+    top: -4px; }
+  .index-teacher-btns li.active a {
+    top: -4px;
+    background-color: rgba(255, 255, 255, 0); }
+  .index-teacher-btns li img {
+    position: relative;
+    top: 0;
+    -webkit-transition: 0.6s all ease;
+    -o-transition: 0.6s all ease;
+    transition: 0.6s all ease; }
+  .index-teacher-btns li > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: 0.6s all ease;
+    -o-transition: 0.6s all ease;
+    transition: 0.6s all ease; }
+
+.index-teacher-btnl,
+.index-teacher-btnr {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/index/index-banner-btnL.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 24px;
+  border-radius: 50%; }
+
+.index-teacher-btnl {
+  left: 0; }
+
+.index-teacher-btnr {
+  background-image: url("../images/index/index-banner-btnR.png");
+  right: 0; }
+
+.index-advantage {
+  height: 211px;
+  background-color: #cc141e; }
+  .index-advantage .warp > div {
+    width: 275px;
+    color: #fff;
+    padding-left: 64px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    background-image: url(../images/index/ico-youshi1.png);
+    background-repeat: no-repeat;
+    background-position: 18px top; }
+    .index-advantage .warp > div:nth-child(2) {
+      background-image: url("../images/index/ico-youshi2.png"); }
+    .index-advantage .warp > div:nth-child(3) {
+      background-image: url("../images/index/ico-youshi3.png"); }
+    .index-advantage .warp > div:nth-child(4) {
+      background-image: url("../images/index/ico-youshi4.png"); }
+    .index-advantage .warp > div h3 {
+      font-size: 20px;
+      line-height: 34px;
+      font-weight: bold;
+      margin-bottom: 6px; }
+    .index-advantage .warp > div p {
+      font-size: 14px;
+      line-height: 28px; }
+
+.index-student {
+  height: 718px;
+  background-image: url(../images/index/index-student-bg.jpg);
+  background-size: cover;
+  background-position: center; }
+  .index-student .warp {
+    padding-top: 52px; }
+
+.index-student-cont {
+  height: 420px;
+  background-color: #fff;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  position: relative; }
+  .index-student-cont li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+    .index-student-cont li > div:nth-child(1) {
+      width: 582px;
+      margin-left: 46px;
+      margin-top: 48px; }
+      .index-student-cont li > div:nth-child(1) > h3 {
+        font-size: 17px;
+        color: #666; }
+        .index-student-cont li > div:nth-child(1) > h3 span {
+          font-size: 20px;
+          line-height: 34px;
+          color: #333;
+          padding-left: 36px;
+          background-image: url(../images/index/ico-yunshuju.png);
+          background-repeat: no-repeat;
+          background-position: left; }
+      .index-student-cont li > div:nth-child(1) > h4 {
+        display: inline-block;
+        font-size: 32px;
+        line-height: 47px;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 16px;
+        background-color: #d6151f;
+        margin-top: 14px;
+        margin-bottom: 38px; }
+      .index-student-cont li > div:nth-child(1) > span {
+        display: block;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #666; }
+      .index-student-cont li > div:nth-child(1) > p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #666; }
+    .index-student-cont li > div:nth-child(2) {
+      width: 495px;
+      height: 373px;
+      position: relative;
+      margin-right: 23px;
+      margin-top: 25px; }
+      .index-student-cont li > div:nth-child(2) a {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background-image: url(../images/index/ico-play-btn.png);
+        background-repeat: no-repeat;
+        bottom: 26px;
+        left: 22px; }
+
+.index-student-btnbox {
+  position: relative;
+  width: 753px;
+  margin: 0 auto; }
+  .index-student-btnbox > div {
+    width: 586px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 6px; }
+
+.index-student-btns li {
+  width: 127px;
+  height: 95px;
+  background-color: #cc141e;
+  position: relative;
+  margin-right: 24px; }
+  .index-student-btns li:last-child {
+    margin-right: 0; }
+  .index-student-btns li.active img {
+    top: -4px; }
+  .index-student-btns li.active a {
+    top: -4px;
+    background-color: rgba(255, 255, 255, 0); }
+  .index-student-btns li img {
+    position: relative;
+    top: 0;
+    -webkit-transition: 0.6s all ease;
+    -o-transition: 0.6s all ease;
+    transition: 0.6s all ease;
+    width: 100%;
+    height: 100%; }
+  .index-student-btns li > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: 0.6s all ease;
+    -o-transition: 0.6s all ease;
+    transition: 0.6s all ease; }
+
+.index-student-btnl,
+.index-student-btnr {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/index/index-banner-btnL.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 24px;
+  border-radius: 50%; }
+
+.index-student-btnl {
+  left: 0; }
+
+.index-student-btnr {
+  background-image: url("../images/index/index-banner-btnR.png");
+  right: 0; }
 
 /*# sourceMappingURL=index.css.map */
